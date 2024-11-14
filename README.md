@@ -97,7 +97,7 @@ If this work is helpful for your research, please consider citing the following 
 ```
 @article{wang2024egovid,
   title={EgoVid-5M: A Large-Scale Video-Action Dataset for Egocentric Video Generation},
-  author={Wang, Xiaofeng and Zhao, Kang and Liu, Feng and Wang, Jiayu, and Zhao, Guosheng, and Bao, Xiaoyi, and Zhu, Zheng and Zhang, Yingya and Wang, Xingang},
+  author={Wang, Xiaofeng and Zhao, Kang and Liu, Feng and Wang, Jiayu and Zhao, Guosheng and Bao, Xiaoyi and Zhu, Zheng and Zhang, Yingya and Wang, Xingang},
   journal={arXiv preprint arXiv:2411.08380},
   year={2024}
 }
