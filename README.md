@@ -8,6 +8,23 @@ EgoVid is a meticulously curated high-quality action-video dataset designed spec
 In order to simulate ego-view videos from egocentric actions, we construct detailed and accurate action annotations for each video segment, encompassing low-level kinematic control (e.g., ego-view translation and rotation), as well as high-level textual descriptions. Additionally, Considering the data quality significantly influences the effectiveness of training generative models. Prior works have delved into various cleansing strategies to improve video datasets, focusing on aesthetics, semantic coherence, and optical flow magnitude. Based on these cleaning strategies, this paper presents a specialized cleansing pipeline specifically designed for egocentric scenarios.
 ![EgoVid](./asset/clean_ann.jpg)
 
+### Data Annotation Pipeline
+1. High-level action annotation (caption)
+
+- refer to [High-level action annotation](./processor/egovid-high-level-action(caption)/README.md)
+
+
+2. Low-level action annotation (camera params)
+
+- refer to [Low-level action annotation](./processor/egovid-low-level-action(cam_control)/README.md)
+
+
+3. Metadata annotation (DOVER score, EgoVideo Score, CLIP score, Optical-flow score)
+
+- refer to [Metadata annotation](./processor/egovid-metadata/README.md)
+
+
+
 
 ## Data Preparation
 
